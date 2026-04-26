@@ -1,0 +1,38 @@
+/* Definir estilos para aplicar diseño a las páginas creadas. Como mínimo definir: 2 estilos utilizando selectores de etiqueta,
+ 2 estilos utilizando selectores de identificador, 2estilos utilizando selectores de clase
+  (aplicar cada uno de los estilos de selectores de clase a varios elementos).*/
+
+
+/*Etiqueta*/
+
+p {
+    color: antiquewhite;
+    background-color: darkslategrey;
+}
+
+h1 {
+    font-family: Impact;
+}
+
+
+/*Identificador*/
+
+#tamaño {
+    font-size: large;
+}
+
+#amarillo {
+    color: yellowgreen;
+}
+
+
+/*Clase*/
+
+.rosa {
+    color: aliceblue;
+    background-color: rgb(255, 122, 145);
+}
+
+.tipografia {
+    text-align: center;
+}
