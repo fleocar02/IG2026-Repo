@@ -1,0 +1,80 @@
+/* paleta de colores */
+
+:root {
+    --amarillo-bogota: #e5ff00;
+    --rojo-colombia: #ff2828;
+    --azul-mar: #3498db;
+    --verde-guacamaya: #11e30a;
+    --fondo-claro: #f2f2eb;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    display: block;
+}
+
+
+/* encabezado */
+
+header {
+    background-color: var(--azul-mar);
+    padding: 40px;
+    text-align: center;
+    border-bottom: 10px solid var(--rojo-colombia);
+}
+
+header img {
+    max-width: 50%;
+}
+
+hr {
+    color: var(--rojo-colombia);
+    border: 10px solid;
+}
+
+
+/* navegador */
+
+nav a:visited {
+    background-color: var(--verde-guacamaya);
+    color: black;
+}
+
+a:visited {
+    color: #ff2828;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    justify-content: center;
+    background-color: #11e30a;
+}
+
+ul {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    gap: 1em;
+}
+
+
+/* body */
+
+body {
+    background-color: var(--amarillo-bogota)
+}
+
+
+/* container div */
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
