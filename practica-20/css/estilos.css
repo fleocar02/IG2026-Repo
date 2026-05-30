@@ -1,0 +1,126 @@
+/* 
+   DECLARACIÓN DE USO DE IA: 
+   Este código CSS y las optimizaciones estructurales de HTML fueron generadas con el apoyo de una IA 
+   para mejorar la jerarquía visual, la accesibilidad y el cumplimiento de estándares web (2026).
+*/
+
+:root {
+    --ladrillo-bogota: #a3432d;
+    /* El color clásico de los edificios del centro */
+    --gris-niebla: #e0e0e0;
+    --azul-noche: #1a2a3a;
+    --dorado-atardecer: #d4a373;
+    --texto-oscuro: #2c2c2c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--gris-niebla);
+    color: var(--texto-oscuro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+#container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* Encabezado con imagen de fondo */
+
+header {
+    background-color: var(--azul-noche);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 4px solid var(--ladrillo-bogota);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+/* Navegación elegante */
+
+nav {
+    background-color: var(--ladrillo-bogota);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--azul-noche);
+    border-radius: 4px;
+}
+
+
+/* Contenido Principal */
+
+main {
+    padding: 40px;
+}
+
+article h2 {
+    color: var(--ladrillo-bogota);
+    border-left: 5px solid var(--azul-noche);
+    padding-left: 15px;
+    margin: 30px 0 15px 0;
+}
+
+aside {
+    background-color: #f9f4f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid var(--dorado-atardecer);
+    font-style: italic;
+}
+
+
+/* Multimedia responsivo */
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: var(--azul-noche);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
