@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(118, 149, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header, footer {
+	background: rgb(35, 45, 65);
+    color:rgb(96, 152, 255);
+	padding: 1em;
+	text-align: center;
+}
+
+main {
+	padding: 2em;
+	background: white;
+}
+
+h1 {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+h2 {
+	font-weight: 700;
+}
+li {
+	line-height: 1.8rem;
+}
+a:link {
+	color: rgb(96, 152, 255);
+}
+a:visited {
+	color: rgb(96, 152, 255);
+}
+a:hover {
+	color: rgb(0, 89, 255);
+}
+a:active {
+	color: rgb(0, 89, 255);
+}
