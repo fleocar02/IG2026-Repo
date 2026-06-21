@@ -17,21 +17,21 @@
           <fieldset>
             <legend>Aula 001</legend>
             <label for="aula001">Ingrese la cantidad de pupitres</label>
-            <input type="number" name="aula001" id="aula001" placeholder="0" required />
+            <input type="number" name="aula001" id="aula001" min="0" placeholder="0" required />
           </fieldset>
 
           <br />
           <fieldset>
             <legend>Aula 101</legend>
             <label for="aula101">Ingrese la cantidad de pupitres</label>
-            <input type="number" name="aula101" id="aula101" placeholder="0" required />
+            <input type="number" name="aula101" id="aula101" min="0" placeholder="0" required />
           </fieldset>
           <br />
 
           <fieldset>
             <legend>Aula 201</legend>
             <label for="aula201">Ingrese la cantidad de pupitres</label>
-            <input type="number" name="aula201" id="aula201" placeholder="0" required/>
+            <input type="number" name="aula201" id="aula201" min="0" placeholder="0" required/>
           </fieldset>
 
           <br />
@@ -39,7 +39,7 @@
           <fieldset>
             <legend>Aula 301</legend>
             <label for="aula301">Ingrese la cantidad de pupitres</label>
-            <input type="number" name="aula301" id="aula301" placeholder="0" required />
+            <input type="number" name="aula301" id="aula301" min="0" placeholder="0" required />
           </fieldset>
 
           <br />
@@ -47,24 +47,20 @@
           <fieldset>
             <legend>Aula 501</legend>
             <label for="aula501">Ingrese la cantidad de pupitres</label>
-            <input type="number" name="aula501" id="aula501" placeholder="0" required />
+            <input type="number" name="aula501" id="aula501" min="0" placeholder="0" required />
           </fieldset>
 
           <br />
 
-          <button type="submit" name="calcular" id="calcular">Calcular</button>
+          <button type="submit" name="calcular" id="calcular">Calcular estadísticas</button>
 
-          <br />
-
-          <legend>Total</legend>
-          <input
-            type="number"
-            name="resultado"
-            id="resultado"
-            placeholder="0"
-            disabled
-          />
         </form>
+
+        <section id="resultados">
+          <p id="resultadoMayor"></p>
+          <p id="resultadoMenor"></p>
+          <p id="resultadoCompras"></p>
+        </section>
       </main>
 
       <footer>

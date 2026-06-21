@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practica 25</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+
+  <body>
+    <div class="caja">
+      <header>
+        <h1 class="titulo">Bienvenido/a</h1>
+      </header>
+
+      <main class="principal">
+        <form action="#" method="get"> 
+
+          <fieldset>
+            <legend>Proyectores</legend>
+            <label>Escribi la cantidad de proyectores</label>
+            <input type="number" name="proyectoresCant" id="proyectoresCant" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Computadoras</legend>
+            <label>Escribi la cantidad de computadoras</label>
+            <input type="number" name="computadorasCant" id="computadorasCant" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pantallas</legend>
+            <label>Escribi la cantidad de pantallas</label>
+            <input type="number" name="pantallasCant" id="pantallasCant" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Dias</legend>
+            <label>Escribi la cantidad de dias que sera necesario alquilar los equipos</label>
+            <input type="number" name="diasCant" id="diasCant" required>
+          </fieldset>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </form>
+
+        <p class="resultado"></p>
+        <p class="resultadoSegu"></p>
+
+      </main>
+
+      <footer>
+        <span class="despedida">Vuelva pronto!</span>
+      </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

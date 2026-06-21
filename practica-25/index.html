@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practica 25</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+
+  <body>
+    <div class="caja">
+      <header>
+        <h1 class="titulo">Bienvenido/a</h1>
+      </header>
+
+      <main class="principal">
+        <form action="#" method="get"> 
+
+          <fieldset>
+            <legend>Nombre</legend>
+            <label>Escribi tu primer nombre</label>
+            <input type="text" name="nombre" id="nombre" required maxlength="15">
+          </fieldset>
+
+          <fieldset>
+            <legend>Edad</legend>
+            <label>Escribi tu edad</label>
+            <input type="number" name="edadPersona" id="edadPersona" min="0" max="120" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Género</legend>
+            <label for="genero">Elegí tu género favorito de serie</label>
+            <select name="genero" id="genero">
+              <option value="comedia">Comedia</option>
+              <option value="romance">Romance</option>
+              <option value="accion">Acción</option>
+            </select>
+
+          </fieldset>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </form>
+
+        <p class="resultado"></p>
+
+      </main>
+
+      <footer>
+        <span class="despedida">Vuelva pronto!</span>
+      </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
