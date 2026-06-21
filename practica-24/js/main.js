@@ -1,7 +1,6 @@
 let numeroRandom = Math.floor((Math.random() * 6) + 1);
 console.log(numeroRandom);
 
-
 let uno = document.querySelector(".numeroUno");
 let dos = document.querySelector(".numeroDos");
 let tres = document.querySelector(".numeroTres");
